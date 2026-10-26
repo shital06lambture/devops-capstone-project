@@ -1,18 +1,15 @@
 
-from flask import Flask
 from flask_talisman import Talisman
 
+# Configure Content Security Policy
+csp = {
+    'default-src': ["'self'"],
+    'script-src': ["'self'"],
+    'style-src': ["'self'"],
+}
 
-def create_app():
-    app = Flask(__name__)
-
-    Talisman(
-        app,
-        content_security_policy={
-            "default-src": "'self'",
-            "object-src": "'none'",
-            "frame-ancestors": "'none'",
-        },
-    )
-
-    return app
+Talisman(
+    app,
+    content_security_policy=csp,
+    force_https=False
+)
