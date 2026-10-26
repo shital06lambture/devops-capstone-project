@@ -1,13 +1,36 @@
 # User Stories
 
-## Customer Accounts Microservice
+## Set up the development environment
+**As a** developer,  
+**I need** to set up the development environment,  
+**So that** I can develop and test the application.
 
-As a user, I want to create, read, update, and delete customer accounts so that I can manage customer information efficiently.
+## Read an account from the service
+**As a** user,  
+**I need** to read an account from the service,  
+**So that** I can view the details of an existing account.
 
-## User Stories for DevOps
+## Update an account in the service
+**As a** user,  
+**I need** to update an account in the service,  
+**So that** I can modify account information.
 
-- As a developer, I want to automate continuous integration checks so that code changes are tested automatically.
-- As a developer, I want to add security headers and CORS policies to improve application security.
-- As a developer, I want to containerize the microservice using Docker so that the application runs consistently across environments.
-- As a developer, I want to deploy the Docker image to Kubernetes so that the application can run in a container orchestration environment.
-- As a developer, I want to create a continuous delivery pipeline so that deployment to Kubernetes can be automated.
+## Delete an account from the service
+**As a** user,  
+**I need** to delete an account from the service,  
+**So that** I can remove an account that is no longer needed.
+
+## List all accounts in the service
+**As a** user,  
+**I need** to list all accounts in the service,  
+**So that** I can view the available accounts.
+
+## Containerize your microservice using Docker
+**As a** developer,  
+**I need** to containerize the microservice using Docker,  
+**So that** the application can run consistently across environments.
+
+## Deploy your Docker image to Kubernetes
+**As a** developer,  
+**I need** to deploy the Docker image to Kubernetes,  
+**So that** the application can be managed and scaled in a container orchestration environment.
